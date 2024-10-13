@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Test Page with responsiveness</title>
+        <link rel="stylesheet" href="asset/css/style.css">
+        <link rel="stylesheet" href="asset/css/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="wrapper">
+            <nav>
+                <div class="logo">
+                    DEMO
+                </div>
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul  class="main-nav-list">
+                    <li>
+                        <a class="active" href="index.html">HOME</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Home 1</a></li>
+                            <li><a href="#">Home 1</a></li>
+                            <li><a href="#">Home 1</a></li>
+                            <li><a href="#">Home 1</a></li>
+                            <li><a href="#">Home 1</a></li>
+                            <li><a href="#">Home 1</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">HEADERS</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">HEADERS 1</a></li>
+                            <li><a href="#">HEADERS 1</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">SLIDERS</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">SLIDERS 1</a></li>
+                            <li><a href="#">SLIDERS 1</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">PAGES</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">PAGES 1</a></li>
+                            <li><a href="#">PAGES 1</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">BLOG</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">BLOG 1</a></li>
+                            <li><a href="#">BLOG 1</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">SHOP</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">SHOP 1</a></li>
+                            <li><a href="#">SHOP 1</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">ELEMENTS</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">ELEMENTS 1</a></li>
+                            <li><a href="#">ELEMENTS 1</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="icons">
+                    <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
+                    <a href="#" class="basket-icon">
+                        <i class="fas fa-shopping-basket"></i><span class="basket-count">0</span>
+                    </a>
+                </div>
+            </nav>
+            <div class="carousel">
+                <ul class="slides">
+                    <!-- Slide 1 -->
+                    <input type="radio" name="radio-buttons" id="img-1" checked />
+                    <li class="slide-container">
+                        <div class="slide-image">
+                            <img src="asset/images/slider-1.jpg" alt="Slider Image 1">
+                            <div class="banner-content slide1">
+                                <div class="banner-title">
+                                    <h2>BRILLIANT</h2>
+                                    <h2>SMART AND BIG</h2>
+                                    <h2>WEBSITE</h2>
+                                    <p>HELLO ARE YOU READY TO START?</p>
+                                    <button class="video btn"><i class="fa-regular fa-circle-play"></i> WATCH VIDEO</button>
+                                    <button class="learn-more btn"><i class="fa-regular fa-circle-check"></i> LEARN MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-controls">
+                            <label for="img-3" class="prev-slide">
+                                <span>&lsaquo;</span>
+                            </label>
+                            <label for="img-2" class="next-slide">
+                                <span>&rsaquo;</span>
+                            </label>
+                        </div>
+                    </li>
+                    
+                    <!-- Slide 2 -->
+                    <input type="radio" name="radio-buttons" id="img-2" />
+                    <li class="slide-container">
+                        <div class="slide-image">
+                            <img src="asset/images/slider-2.jpg" alt="Slider Image 2">
+                            <div class="banner-content slide2">
+                                <div class="banner-title">
+                                    <h2>BRILLIANT</h2>
+                                    <h2>SMART AND BIG</h2>
+                                    <h2>WEBSITE</h2>
+                                    <p>HELLO ARE YOU READY TO START?</p>
+                                    <button class="video btn"><i class="fa-regular fa-circle-play"></i> WATCH VIDEO</button>
+                                    <button class="learn-more btn"><i class="fa-regular fa-circle-check"></i> LEARN MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-controls">
+                            <label for="img-1" class="prev-slide">
+                                <span>&lsaquo;</span>
+                            </label>
+                            <label for="img-3" class="next-slide">
+                                <span>&rsaquo;</span>
+                            </label>
+                        </div>
+                    </li>
+                    
+                    <!-- Slide 3 -->
+                    <input type="radio" name="radio-buttons" id="img-3" />
+                    <li class="slide-container">
+                        <div class="slide-image">
+                            <img src="asset/images/slider-3.jpg" alt="Slider Image 3">
+                            <div class="banner-content slide3">
+                                <div class="banner-title">
+                                    <h2>BRILLIANT</h2>
+                                    <h2>SMART AND BIG</h2>
+                                    <h2>WEBSITE</h2>
+                                    <p>HELLO ARE YOU READY TO START?</p>
+                                    <button class="video btn"><i class="fa-regular fa-circle-play"></i> WATCH VIDEO</button>
+                                    <button class="learn-more btn"><i class="fa-regular fa-circle-check"></i> LEARN MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-controls">
+                            <label for="img-2" class="prev-slide">
+                                <span>&lsaquo;</span>
+                            </label>
+                            <label for="img-1" class="next-slide">
+                                <span>&rsaquo;</span>
+                            </label>
+                        </div>
+                    </li>
+                    
+                    <!-- Carousel dots -->
+                    <div class="carousel-dots">
+                        <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                        <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                        <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                    </div>
+                </ul>
+            </div>
+            <section class="portfolio-title">
+                <h2>RECENT PORTFOLIO</h2>
+                <p>Here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't.</p>
+            </section>
+            <section class="portfolio-gallery">
+                <div class="portfolio-filter">
+                    <button class="filter-button active" onclick="filterSelection('all')">SHOW ALL</button>
+                    <button class="filter-button" onclick="filterSelection('creative')">CREATIVE</button>
+                    <button class="filter-button" onclick="filterSelection('digital')">DIGITAL</button>
+                    <button class="filter-button" onclick="filterSelection('marketing')">MARKETING</button>
+                    <button class="filter-button" onclick="filterSelection('styling')">STYLING</button>
+                </div>
+                
+                <div class="gallery">
+                    <div class="gallery-item creative" id="tab1">
+                        <img src="asset/images/img-1.jpg" alt="Creative Project">
+                    </div>
+                    <div class="gallery-item digital" id="tab2">
+                        <img src="asset/images/img-2.jpg" alt="Digital Project">
+                    </div>
+                    <div class="gallery-item marketing" id="tab3">
+                        <img src="asset/images/img-3.jpg" alt="Marketing Project">
+                    </div>
+                    <div class="gallery-item styling" id="tab4">
+                        <img src="asset/images/img-4.jpg" alt="Styling Project">
+                    </div>
+                    <div class="gallery-item creative" id="tab5">
+                        <img src="asset/images/img-5.jpg" alt="Creative Project">
+                    </div>
+                    <div class="gallery-item digital" id="tab6">
+                        <img src="asset/images/img-6.jpg" alt="Digital Project">
+                    </div>
+                    <div class="gallery-item digital" id="tab7">
+                        <img src="asset/images/img-7.jpg" alt="Digital Project">
+                    </div>
+                    <div class="gallery-item digital" id="tab8">
+                        <img src="asset/images/img-8.jpg" alt="Digital Project">
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-about">
+                        <h3>DEMO</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                        <button>PURCHASE NOW</button>
+                    </div>
+                    
+                    <div class="footer-posts">
+                        <h4>RECENT POSTS</h4>
+                        <ul>
+                            <li><i class="fa-sharp-duotone fa-solid fa-square-pen"></i><a href="#">Best Business Themes</a> <span>October 3, 2017</span></li>
+                            <li><i class="fa-sharp-duotone fa-solid fa-square-pen"></i><a href="#">Best Business Themes</a> <span>October 3, 2017</span></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-tags">
+                        <h4>TAGS</h4>
+                        <div class="tab-btn">
+                            <ul>
+                                <li><span>Business</span></li>
+                                <li><span>Clean</span></li>
+                                <li><span>Corporate</span></li>
+                                <li><span>Creative</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-instagram">
+                        <h4>INSTAGRAM</h4>
+                        <div class="instagram-gallery">
+                            <img src="asset/images/img-1.jpg" alt="Instagram 1">
+                            <img src="asset/images/img-2.jpg" alt="Instagram 2">
+                            <img src="asset/images/img-3.jpg" alt="Instagram 3">
+                        </div>
+                        <div class="instagram-gallery">
+                            <img src="asset/images/img-4.jpg" alt="Instagram 1">
+                            <img src="asset/images/img-5.jpg" alt="Instagram 2">
+                            <img src="asset/images/img-6.jpg" alt="Instagram 3">
+                        </div>
+                    </div>
+                </div>
+                
+            </footer>
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; COPYRIGHT WEBRIUM. ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+        <script>
+        function filterSelection(category) {
+        var items = document.getElementsByClassName('gallery-item');
+        for (var i = 0; i < items.length; i++) {
+        items[i].style.display = (category === 'all' || items[i].classList.contains(category)) ? 'block' : 'none';
+        }
+        
+        // Update active class on buttons
+        var buttons = document.getElementsByClassName('filter-button');
+        for (var j = 0; j < buttons.length; j++) {
+        buttons[j].classList.remove('active');
+        }
+        event.currentTarget.classList.add('active');
+        }
+        
+        </script>
+    </body>
+</html>

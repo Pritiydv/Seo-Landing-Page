@@ -1,0 +1,241 @@
+@media (max-width: 1024px) {
+  footer {
+    padding: 50px 50px 40px 50px;
+  }
+  
+  .footer-about,
+  .footer-posts,
+  .footer-tags,
+  .footer-instagram {
+    width: 45%; 
+    margin-bottom: 30px;
+  }
+  
+  .footer-posts h4,
+  .footer-tags h4,
+  .footer-instagram h4 {
+    width: 135px; 
+  }
+
+  .footer-instagram .instagram-gallery img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .footer-about p,
+  .footer-posts ul li span {
+    font-size: 13px;
+  }
+}
+/* Media Query for mobile devices (up to 1000px) */
+@media (max-width: 1000px){
+  nav{
+    padding: 0 40px 0 40px;
+  }
+}
+
+/* Media Query for mobile devices (up to 920px) */
+@media (max-width: 920px) {
+  
+  nav .menu-btn i{
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  nav ul{
+    position: fixed;
+    top: 100px;
+    left: -100%;
+    background: #111;
+    height: 62vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+
+  .menu-btn{
+      position: absolute;
+      left: 86%;
+  }
+  nav ul li{
+    width: 100%;
+    padding: 11px 0;
+    border-bottom: 0.1px solid #373737;
+  }
+  nav ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    background: none;
+    color: #c7c7c7;
+  }
+   
+  .icons {
+      position: absolute;
+      left: 45%;
+  }
+  
+
+}
+
+/* Media Query for mobile devices (up to 600px) */
+@media only screen and (max-width: 600px) {
+
+  /* Banner */
+
+  .carousel-controls{
+    display: none;
+  }
+  .banner-content{
+    width: 310px;
+  }
+
+  .banner-title p{
+    text-align: left;
+    margin-top: 11px;
+  }
+
+  .btn{
+    width: 54%;
+    margin-bottom: 5px;
+    margin-top: 38px;
+    font-size: 14px;
+    padding: 14px 15px;
+  }
+
+  .banner-content.slide1{
+    left: 38px;
+    text-align: center;
+  }
+  .banner-title h2{
+    font-size: 33px;
+    padding: 6px 12px;
+    margin-bottom: 7px;
+    font-weight: 700;
+  }
+
+}
+
+/* Media Query for tablets (up to 768px) */
+@media (max-width: 768px) {
+  .portfolio-title p {
+      width: 80%; 
+      font-size: 14px; 
+  }
+
+  .portfolio-title h2 {
+      font-size: 28px; 
+  }
+
+  /* gallery */
+
+  .gallery {
+    flex-wrap: wrap; 
+}
+
+.gallery-item {
+    width: 50%;
+}
+
+.portfolio-filter {
+    flex-direction: column; 
+}
+
+.filter-button {
+    margin-bottom: 10px; 
+}
+.filter-button{
+  font-size: 12px;
+}
+/* footer */
+footer {
+  padding: 40px 30px 30px 30px;
+}
+
+.footer-about,
+.footer-posts,
+.footer-tags,
+.footer-instagram {
+  width: 100%; /* Full width per row */
+  margin-bottom: 20px;
+}
+
+.footer-instagram .instagram-gallery img {
+  width: 80px;
+  height: 80px;
+}
+
+.footer-posts ul li span,
+.footer-about p {
+  font-size: 13px;
+}
+
+.footer-about button {
+  margin: 20px 0;
+}
+
+
+}
+
+/* Media Query for mobile devices (up to 480px) */
+@media (max-width: 480px) {
+  .portfolio-title p {
+      width: 90%; 
+      font-size: 13px;
+  }
+
+  .portfolio-title h2 {
+      font-size: 24px;
+  }
+
+
+
+  /* gallery */
+  .gallery-item {
+    width: 100%; 
+}
+
+.filter-button {
+    padding: 8px 15px; 
+}
+
+footer {
+  padding: 30px 20px 20px 20px;
+}
+
+.footer-about h3 {
+  font-size: 18px;
+}
+
+.footer-about p,
+.footer-posts ul li a,
+.footer-tags ul li span {
+  font-size: 12px;
+}
+
+.footer-instagram .instagram-gallery img {
+  width: 60px;
+  height: 60px;
+}
+
+.footer-posts h4,
+.footer-tags h4,
+.footer-instagram h4 {
+  font-size: 16px;
+}
+
+
+}
